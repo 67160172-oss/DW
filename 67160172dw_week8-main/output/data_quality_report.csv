@@ -1,0 +1,7 @@
+﻿table,issue,count,action
+customers_crm,Duplicate customer_id,3,Removed duplicates keeping the last occurrence
+orders,Duplicate order_id,2,Removed duplicate order_id keeping the last occurrences
+orders,Customer ID not found in Master Data,22,Filtered out unmapped customers (Rule 3)
+orders,Product ID not found in Master Data,2,Filtered out unmapped products (Rule 3)
+orders,Invalid quantity (<= 0),2,Filtered out rows with non-positive quantity (Rule 2)
+payments,Non-PAID payment status (FAILED/REFUNDED),63,Excluded unpaid orders from sales calculation (Rule 4)
