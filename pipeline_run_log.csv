@@ -1,5 +1,0 @@
-run_key,batch,started_at,ended_at,rows_read,rows_valid,rows_loaded,rows_rejected,rows_duplicated,status
-1,orders_batch_1,2026-08-18T05:31:18.245200,2026-08-18T05:31:18.323039,420,389,389,31,0,success
-2,orders_batch_1,2026-08-18T05:31:18.324192,2026-08-18T05:31:18.483736,420,389,0,31,0,success
-3,orders_batch_2,2026-08-18T05:31:18.484751,2026-08-18T05:31:18.550517,424,386,386,38,1,success
-4,orders_batch_3,2026-08-18T05:31:18.551593,2026-08-18T05:31:18.620717,424,386,385,38,3,success
